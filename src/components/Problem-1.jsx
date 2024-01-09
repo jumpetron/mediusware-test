@@ -5,8 +5,8 @@ const Problem1 = () => {
 
   const [show, setShow] = useState("all");
 
-  const handleClick = (val) => {
-    setShow(val);
+  const handleClick = (value) => {
+    setShow(value);
   };
 
   const handleSubmit = (e) => {
